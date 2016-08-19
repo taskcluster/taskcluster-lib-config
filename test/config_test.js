@@ -76,7 +76,7 @@ suite("config", function() {
       ]
     });
 
-    assume(cfg).deep.equals(undefined);
+    assume(cfg).deep.equals({});
   });
 
   test("load yaml (merge missing file)", () => {
